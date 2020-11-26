@@ -1,1 +1,97 @@
-/* Add your own styles */
+img{
+	height: 150px;
+}
+
+header{
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    font-family: Impact, fantasy;
+    padding: 5px;
+    background-color: #37404f;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    font-size: 20px;
+    min-height: 100vh;
+    background-color: #e9ebf0;
+}
+
+main{
+    padding:30px;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    height:40px;
+    width: 500px;
+    padding: 15px;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.05);
+    border-radius: 5px;
+    outline-style:none;
+    border-style: none;
+}
+
+#result{
+    padding:30px;
+    justify-content: center;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: #32bf80;
+    border-style: none;
+    outline-style: none;
+    cursor:pointer;
+}
+
+#controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons{
+    padding-top: 20px;
+}
+
+#citylook{
+	background-color: #3279bf;
+}
+
+table{
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th{
+    border: 1px solid #ebebeb;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:hover{
+    background-color: #ebebeb;
+}
+
+table th{
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align: center;
+    background-color: #3279bf;
+    color: white;
+}
